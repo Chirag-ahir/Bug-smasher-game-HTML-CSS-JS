@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	overflow: hidden;
+	margin-top: 0;
+}
+
+#background{
+	background-image:url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	height:95vh;
+}
+
+#ant {
+	left: 5%;
+	top: 20%;
+	position: relative;
+	cursor: crosshair;
+}
+button{
+	border-style: hidden;
+	border-width: thin;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: Calibri;
+	text-decoration: none;
+	background-color: white;
+	color: #000;
+	position:relative;
+}
+button:hover{
+	border-style: hidden;
+	border-width: thin;
+	border-radius: 5px;
+	background-color: #FF9999;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#scoreLabel{
+	font-size: 30px;
+	color: #ffff;
+	font-weight: bold;
+	font-family: Calibri;
+	position: relative;
+}
+#score{
+	margin-left: 870px;
+	font-size: 30px;
+	position: relative;
+	color: #ffff;
+	font-family: Calibri;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #4EA1AE;
+	padding-left: 10px;
+	color: white;
+	font-family: Calibri;
+	padding: 5px;
+}
+
+a {
+	font-family: Calibri;
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	font-family: Calibri;
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	border-style: hidden;
+	border-width: thin;
+	background-color: #FFA8AE;
+	color: #FFFFFF;
+
+}
+h1 {
+	font-family: Calibri;
+	color: #fff;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-align: center;
+	position: absolute;
+	left: 45%;
+	top: 0;
+}
